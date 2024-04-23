@@ -1,6 +1,8 @@
 import { siteConfig } from '@/config/site'
 import Link from 'next/link'
 import { MainNav } from './main-nav'
+import { MobileNav } from './mobile-nav'
+import { ModeToggle } from './mode-toggle'
 
 export default function SiteHeader() {
   return (
@@ -12,7 +14,11 @@ export default function SiteHeader() {
           </Link>
         </div>
         {/* mainnav */}
-        <MainNav />
+        <div className='flex flex-1 items-center justify-end space-x-2'>
+          <ModeToggle />
+          <MainNav />
+          <MobileNav />
+        </div>
       </div>
     </header>
   )
