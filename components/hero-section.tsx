@@ -8,10 +8,10 @@ export default function HeroSection() {
           <h1 className='font-extrabold text-5xl md:text-6xl lg:text-7xl mb-2 md:mb-4'>
             Explore Hobby classes for Kids
           </h1>
-          <p className='font-medium mb-2 md:mb-4'>
+          <p className='font-medium mb-2 md:mb-4 text-muted-foreground'>
             Learn from the worlds best professionals:
           </p>
-          <p className='font-medium max-w-xl mb-2 md:mb-4'>
+          <p className='font-medium max-w-xl mb-2 md:mb-4 text-muted-foreground'>
             Lorem ipsum dolor sit amet consectetur. Semper aliquet orci potenti
             sed cras turpis. Mauris facilisis eget aliquam condimentum sed
             vestibulum eu. Leo porttitor tincidunt ut ornare ornare pulvinar
@@ -24,6 +24,9 @@ export default function HeroSection() {
             <button className='py-3 w-full bg-primary text-background rounded-lg'>
               Email Address
             </button>
+            <p className='font-medium mb-2 md:mb-4 text-muted-foreground'>
+              Stay updated about events and new release
+            </p>
           </div>
         </div>
         <div className='flex-1 flex gap-2'>
